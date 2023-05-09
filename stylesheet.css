@@ -4,3 +4,8 @@ body {
     background-color:#1e81b0;
     font-family: 'Oswald', sans-serif;
 }
+#header-nav {
+    background-color:#eab676;
+    border-radius: 0;
+    border: 0;
+}
