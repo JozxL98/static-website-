@@ -84,6 +84,10 @@ body {
 #btn {
     color: white;
 }
+.container .jumbotron {
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
 /* media quaries */
 @media (min-width: 1200px) {
 #logo-img {
@@ -92,12 +96,22 @@ body {
     height: 150px;
     margin: 5px 5px 5px 0;
 }
+.container .jumbotron {
+    background: url('../img/pharmacy-lg.jpg') no-repeat;
+    height: 675px;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .container .jumbotron {
+        background: url('../img/pharmacy-md.jpg') no-repeat;
+        height: 558px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .container .jumbotron {
+        background: url('../img/pharmacy-sm.jpg') no-repeat;
+        height: 432px;
+}
 }
 @media (max-width: 767px){
 .navbar-brand {
@@ -115,5 +129,9 @@ body {
 .navbar-brand p img {
     height: 20px;
 }
+}
+.container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
 }
 /* media quaries */
