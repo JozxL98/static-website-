@@ -84,10 +84,23 @@ body {
 #btn {
     color: white;
 }
+/*Home Page */
 .container .jumbotron {
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
 }
+#products-tile, #about-us-tile, #map-tile {
+height: 250px;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid #3f0c1f;
+overflow: hidden;
+}
+#products-tile:hover, #about-us-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
 /* media quaries */
 @media (min-width: 1200px) {
 #logo-img {
@@ -113,7 +126,7 @@ body {
         height: 432px;
 }
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
 .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -129,9 +142,24 @@ body {
 .navbar-brand p img {
     height: 20px;
 }
-}
 .container .jumbotron {
     margin-top: 30px;
     padding: 0;
+}
+#call-btn > a {
+font-size: 1.5em;
+display: block;
+margin: 0 20px;
+padding: 10px;
+border: 2px solid #fff;
+background-color: #f6b319;
+color: #951c49;
+}
+#xs-gotu {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
 }
 /* media quaries */
