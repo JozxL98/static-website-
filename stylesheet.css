@@ -249,7 +249,6 @@ color: #951c49;
     padding-top: 5px;
     font-size: 6vw;
  }
-}
 .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
@@ -260,5 +259,13 @@ color: #951c49;
 .panel-footer section hr {
     width: 50%;
 }
-
+.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
 /* media quaries */
