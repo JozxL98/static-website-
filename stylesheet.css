@@ -194,8 +194,8 @@ overflow: hidden;
     border: 2px solid #3f0c1f;
     overflow: hidden;
     padding: 0;
-    margin-right: -15px;
     margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
     max-width: 250px;
 }
@@ -242,7 +242,7 @@ h3.products-item-title {
         height: 432px;
 }
 }
-@media (max-width: 767px) {
+@media (max-width: 767) {
 .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -281,9 +281,6 @@ color: #951c49;
     width: 360px;
     margin: 0 auto 15px;
 }
-.products-item-photo {
-    margin-right: auto;
-}
 .products-item-tile .products-item-price {
     text-align: center;
 }
@@ -291,6 +288,7 @@ color: #951c49;
     text-align: center;
 }
 }
+
 /*** Super extra Small Devices ***/
 @media (max-width: 479px) {
  #products-tile, #about-us-tile {
